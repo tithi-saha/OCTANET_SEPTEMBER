@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&family=VT323&family=Zeyada&display=swap');
+
+
+
+body{
+    margin:30px;
+    padding:30px;
+    text-align:center;
+    background-image:url("back2.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+   background-blend-mode:darken;
+    
+    background-color:rgb(235, 236, 220);
+    font-family: 'Mystery Quest', cursive;
+font-family: 'VT323', monospace;
+font-family: 'Zeyada', cursive;
+}
+h1{
+    color:white;
+    font-size:60px;
+    text-decoration:underline
+}
+
+.container{
+    display:flex;
+    gap:100px:
+}
+img{
+    height:200px;
+    width:400px;
+    border-radius:20px;
+    border-style:dotted;
+    border-color:aqua
+}
+
+.line{
+    margin:10px;
+    height:50px;
+    width:93vw;
+    /* background-image:url("hii.jpg");
+    background-repeat: repeat; */
+    background-color:rgba(91, 163, 222, 0.644);
+}
+
+.b1{
+    width:200px;
+    height:50px;
+    background-color: rgb(141, 232, 232);
+    font-size:22px;
+    color:black;
+    border-radius: 10px;
+}
+.b1:hover{
+    height:60px;
+    background-color:blue;
+    cursor:pointer;
+    border-radius: 10px;
+    color:yellow;
+}
+
+.line1{
+    margin:10px;
+    height:50px;
+    width:93vw;
+   
+    background-color:rgba(91, 163, 222, 0.644);
+
+   
+}
+
+.line1 li{
+    /* display:flex;
+
+    justify-content:flex-end;
+    gap:5px;
+    list-style-type:none;
+} */
+display:inline;
+float:right;
+margin-right:10px;
+position:relative;
+top:10px;
+font-size:25px;
+
+
+
+}
+.line1 li:hover{
+    cursor:pointer;
+    text-decoration:underline;
+    font-size: 35px;
+    position:relative;
+top:0.1px;
+
+}
