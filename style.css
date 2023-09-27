@@ -1,97 +1,63 @@
-@import url('https://fonts.googleapis.com/css2?family=Mystery+Quest&family=VT323&family=Zeyada&display=swap');
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    background-color: rgb(34, 34, 123);
+    margin: 0;
+    padding: 0;
+}
 
-
-
-body{
-    margin:30px;
-    padding:30px;
-    text-align:center;
-    background-image:url("back2.jpg");
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-   background-blend-mode:darken;
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgb(34, 34, 123);
     
-    background-color:rgb(235, 236, 220);
-    font-family: 'Mystery Quest', cursive;
-font-family: 'VT323', monospace;
-font-family: 'Zeyada', cursive;
+    box-shadow: 10px 10px 10px black;
 }
-h1{
+
+h1 {
+    text-align: center; 
     color:white;
-    font-size:60px;
-    text-decoration:underline
+    text-decoration: underline;
+    text-decoration-color: red;
 }
 
-.container{
-    display:flex;
-    gap:100px:
-}
-img{
-    height:200px;
-    width:400px;
-    border-radius:20px;
-    border-style:dotted;
-    border-color:aqua
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-.line{
-    margin:10px;
-    height:50px;
-    width:93vw;
-    /* background-image:url("hii.jpg");
-    background-repeat: repeat; */
-    background-color:rgba(91, 163, 222, 0.644);
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
 
-.b1{
-    width:200px;
-    height:50px;
-    background-color: rgb(141, 232, 232);
-    font-size:22px;
-    color:black;
-    border-radius: 10px;
-}
-.b1:hover{
-    height:60px;
-    background-color:blue;
-    cursor:pointer;
-    border-radius: 10px;
-    color:yellow;
+ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-.line1{
-    margin:10px;
-    height:50px;
-    width:93vw;
-   
-    background-color:rgba(91, 163, 222, 0.644);
-
-   
+li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
 }
 
-.line1 li{
-    /* display:flex;
-
-    justify-content:flex-end;
-    gap:5px;
-    list-style-type:none;
-} */
-display:inline;
-float:right;
-margin-right:10px;
-position:relative;
-top:10px;
-font-size:25px;
-
-
-
-}
-.line1 li:hover{
-    cursor:pointer;
-    text-decoration:underline;
-    font-size: 35px;
-    position:relative;
-top:0.1px;
-
+.delete-button {
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
 }
